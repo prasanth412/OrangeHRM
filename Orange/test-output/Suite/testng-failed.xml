@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Admin(failed)">
+    <classes>
+      <class name="com.htcindia.orange.testcases.AdminUserManagementTest">
+        <methods>
+          <include name="T002_searchAdmin"/>
+          <include name="T001_openAdmin"/>
+        </methods>
+      </class> <!-- com.htcindia.orange.testcases.AdminUserManagementTest -->
+    </classes>
+  </test> <!-- Admin(failed) -->
+</suite> <!-- Failed suite [Suite] -->
